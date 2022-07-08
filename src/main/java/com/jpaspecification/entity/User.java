@@ -19,10 +19,7 @@ public class User {
 		this.lastname = lastname;
 		this.age = age;
 	}
-	public User() {
-		super();
-		//TODO Auto-generated constructor stub
-	}
+	public User() {}
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", age=" + age + "]";
